@@ -1,0 +1,18 @@
+name = "memo"
+compatibility_date = "2025-11-13"
+main = "src/index.js"
+[assets]
+directory = "./src/public"
+run_worker_first = [
+	"/api/*"
+]
+
+[[d1_databases]]
+binding = "DB"
+database_id = "YOUR_D1_DATABASE_ID"
+database_name = "memo"
+
+[[kv_namespaces]]
+binding = "NOTES_KV"
+id = "memo"
+preview_id = ""
