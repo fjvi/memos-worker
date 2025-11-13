@@ -1,5 +1,5 @@
-name = "memos-worker"
-compatibility_date = "2025-08-19"
+name = "memo"
+compatibility_date = "2025-11-13"
 main = "src/index.js"
 [assets]
 directory = "./src/public"
